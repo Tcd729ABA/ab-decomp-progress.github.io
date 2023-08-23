@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'YourCustomFont';
+  src: url('ab.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: url('background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo-container,
+.text-container {
+  margin: 0 auto;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-label {
+  display: inline-block;
+  padding: 5px;
+  font-family: 'YourCustomFont', sans-serif;
+  font-size: 100px; /* Increase font size as needed */
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.text-container {
+  margin-top: 10px;
+}
